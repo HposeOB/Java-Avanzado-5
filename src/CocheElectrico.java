@@ -1,17 +1,22 @@
-public class CocheElectrico extends Coche{
-    int bateria;
+public class CocheElectrico implements Coche, Bateria{
 
-    public CocheElectrico() {
-        super();
+    @Override
+    public void setMarca() {
 
     }
 
-    public CocheElectrico(int bateria) {
-        this.bateria = bateria;
+    @Override
+    public void setModelo() {
+
     }
 
-    public CocheElectrico(String marca, String modelo, int puertas, int bateria) {
-        super(marca, modelo, puertas);
-        this.bateria = bateria;
+    @Override
+    public void setPuertas() {
+
+    }
+
+    @Override
+    public void setBateria() {
+
     }
 }

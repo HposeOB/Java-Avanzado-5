@@ -1,13 +1,24 @@
-public class CocheCombustible extends Coche{
+public class CocheCombustible implements Coche, Combustible{
 
-    String combustible;
 
-    public CocheCombustible(String combustible) {
-        this.combustible = combustible;
+    @Override
+    public void setMarca() {
+
     }
 
-    public CocheCombustible(String marca, String modelo, int puertas, String combustible) {
-        super(marca, modelo, puertas);
-        this.combustible = combustible;
+    @Override
+    public void setModelo() {
+
+    }
+
+    @Override
+    public void setPuertas() {
+
+    }
+
+
+    @Override
+    public void setCombustible() {
+
     }
 }
